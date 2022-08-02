@@ -1,0 +1,42 @@
+#game div {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  background: linear-gradient(#FFFFFF, #000000);
+  box-shadow: 10px 5px 5px black;
+}
+
+body {
+  background-color: rgba(133, 216, 182, 0.375);
+}
+
+.gameTitle {
+  display: block;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 3px mediumaquamarine;
+  color: darkslategray;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 3px;
+  background: linear-gradient(mintcream, mediumaquamarine 80%);
+  border: 2px solid darkslategray;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 1px 3px 3px black;
+}
+
+#game {
+  margin: auto;
+  max-width: 1260px;
+  text-align: center;
+}
